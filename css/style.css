@@ -130,6 +130,12 @@ body {
   padding: 24px;
 }
 
+.information-secondary-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
 .information-card-container {
   display: flex;
   justify-content: space-evenly;
@@ -155,7 +161,6 @@ body {
  justify-content: space-evenly;
  flex: 1;
  gap: 36px;
- padding: 16px;
  padding-top: 8px;
 }
 
@@ -163,7 +168,7 @@ body {
   display: flex;
   width: 100px;
   height: 100px;
-  font-size: 12px;
+  font-size: 10px;
   color: #909090;
 }
 
