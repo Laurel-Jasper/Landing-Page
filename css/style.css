@@ -18,10 +18,10 @@ body {
 /* HERO CONTAINER */
 
 .hero-container {
-  background-color: #1f2937;
+  background-color: #3882f6;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 48px;
+  padding: 24px 48px;
   margin: 0;
   width: 100%;
 }
@@ -79,18 +79,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 465px;
-  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
 }
 
 .hero-main-text {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  padding: 10px;
 }
 
 .hero-secondary-text {
   color: #e5e7e5;
   font-size: 18px;
+  padding: 10px;
 }
 
 .sign-up {
@@ -99,16 +102,18 @@ body {
   border-radius: 5px;
   color: #f9faf8;
   padding: 8px 24px;
+  width: 125px;
+  height: 40px;
+  margin: 10px;
+}
+
+.sign-up:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 .hero-image {
-  background-color: #909090;
-  color: #e5e7e5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  height: 250px;
+  box-shadow: 0px 0px 10px #000;
 }
 
 /* INFORMATION STYLES */
@@ -126,19 +131,18 @@ body {
 .information-header {
   font-size: 36px;
   font-weight: bolder;
-  color: #1f2937;
+  color: #3882f6;
   padding: 24px;
 }
 
 .information-secondary-container {
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
 }
 
 .information-card-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex: 1;
   gap: 32px;
   padding: 16px;
@@ -147,21 +151,16 @@ body {
 
 .information-card {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid #3882f6;
-  border-radius: 10px;
   width: 100px;
   height: 100px;
-  padding: 10px;
+  box-shadow: 0px 0px 10px #000;
 }
 
 .information-text-container {
- display: flex;
- justify-content: space-evenly;
- flex: 1;
- gap: 36px;
- padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  padding-top: 8px;
 }
 
 .information-text {
@@ -191,7 +190,7 @@ body {
   color: #1f2937;
 }
 
-.quote-caption{
+.quote-caption {
   font-style: normal;
   font-weight: 900;
   text-align: right;
@@ -231,10 +230,15 @@ body {
   padding: 8px 24px;
 }
 
+.action-button:hover {
+  color: #3882f6;
+  background-color: #f9faf8;
+}
+
 /* FOORTER STYLES */
 
 .footer {
-  background-color: #1f2937;
+  background-color: #3882f6;
   width: 100%;
   display: flex;
   align-items: center;
