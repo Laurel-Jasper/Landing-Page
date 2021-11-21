@@ -3,6 +3,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  height: 100vh;
 }
 
 /* MAIN CONTAINER */
@@ -23,7 +24,6 @@ body {
   flex-wrap: wrap;
   padding: 24px 48px;
   margin: 0;
-  width: 100%;
 }
 
 /* HEADER STYLES */
@@ -78,9 +78,13 @@ body {
 .hero-card {
   display: flex;
   flex-wrap: wrap;
-  width: 465px;
-  background-color: rgba(255, 255, 255, 0.3);
+  width: 400px;
   border-radius: 3px;
+}
+
+.hero-text-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
 }
 
 .hero-main-text {
@@ -113,6 +117,8 @@ body {
 }
 
 .hero-image {
+  height: 273px;
+  border-radius: 5px;
   box-shadow: 0px 0px 10px #000;
 }
 
@@ -153,7 +159,15 @@ body {
   display: flex;
   width: 100px;
   height: 100px;
-  box-shadow: 0px 0px 10px #000;
+}
+
+.information-image {
+  border-radius: 5px;
+}
+
+.information-image:hover {
+  box-shadow: 10px 10px 20px black; 
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .information-text-container {
@@ -169,6 +183,7 @@ body {
   height: 100px;
   font-size: 10px;
   color: #909090;
+  padding-top: 10px;
 }
 
 /* QUOTE STYLES */
@@ -242,8 +257,9 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 100px;
   color: #f9faf8;
   font-size: 12px;
 }
+
